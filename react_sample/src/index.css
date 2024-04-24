@@ -1,0 +1,12 @@
+html, body, #root, #wanna-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.status {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}

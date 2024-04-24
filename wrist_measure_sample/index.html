@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WANNABY / WEB-AR / WRIST MEASUREMENT</title>
+    <meta name="description" content="WANNA WEB-AR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script defer src="./libs/sdk.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <main id="main">
+      <section id="loading">
+        <div class="loading__content">
+          <div class="loading__logo"></div>
+          <div class="loading__progress">
+            <div class="loading__progressLine">
+              <div class="loading__progressLineFill"></div>
+            </div>
+          </div>
+          <div class="loading__text">
+            Loading...
+          </div>
+        </div>
+      </section>
+      <section id="wristMeasureWrapper" style="display: none">
+      </section>
+      <section id="suggestion" style="display: none">
+          <p class="suggestion__text">
+            Measure your wrist width for a more accurate fit
+          </p>
+          <div class="suggestion__footer">
+            <button class="suggestion__button" onclick="onRemeasureClick()">
+              Let’s start
+            </button>
+            <button class="suggestion__button" onclick="hideSuggestion()">Not now</button>
+          </div>
+        </div>
+      </section>
+      <section id="iframeWrapper" style="display: none">
+        <button id="remeasureButton" onclick="onRemeasureClick()" style="display: none">
+          <span id="remeasureButtonSuccessIcon" style="display: none;"></span>
+        </button>
+      </section>
+      <section id="successWristMeasureWrapper" style="display: none">
+        <div class="successWristMeasureContent">
+          <span class="checkIcon"></span>
+          <div class="successWristMeasureText">
+            Now the size of the watch corresponds to its size in reality
+          </div>
+        </div>
+      </section>
+      <section id="errorWrapper" style="display: none">
+      </section>
+      <section id="consentConfirmation" style="display: none">
+        <div class="consentConfirmation_content">
+          <p class="consentConfirmation_text">
+            To measure your wrist, we need your consent to collect and process
+            your IP address by the third party's controller. We use this data
+            only to provide you with this feature. Do you agree?
+          </p>
+          <div
+            class="consentConfirmation_checkbox"
+            role="checkbox"
+            onclick="toggleConfirmationCheckbox(this)"
+          >
+            <div class="consentConfirmation_checkboxIcon"></div>
+            Yes, I agree
+          </div>
+          <button
+            id="confirmConsentButton"
+            class="consentConfirmation_button consentConfirmation_button--primary"
+            disabled
+            onclick="setIsConsentConfirmed(true)"
+          >
+            Confirm
+          </button>
+          <button
+            class="consentConfirmation_button"
+            onclick="setIsConsentConfirmed(false)"
+          >
+            Cancel
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

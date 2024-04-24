@@ -1,0 +1,6 @@
+# SDK Build
+*/libs/
+
+# Misc
+.idea
+.DS_Store
