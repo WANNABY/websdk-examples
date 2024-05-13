@@ -2,7 +2,7 @@
 
 ### Installation
 
-1. Put build of WANNA WEB SDK into `./libs` directory.
+1. Put the content of WANNA WEB SDK into `./libs` directory.
 2. Add your license key in `index.js` file:
 ```js
 const license = '';
