@@ -8,8 +8,9 @@
 ### Installation
 
 1. Run `yarn` in the root of this folder to install dependencies
-2. Add your license key in `src/App.js`:
+2. Add your license key and model id in `src/App.js`:
 ```html
 const license = '';
+const modelId = 'wanna01';
 ```
 3. Run `yarn start` to start local dev server

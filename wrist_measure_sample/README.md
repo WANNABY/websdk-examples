@@ -3,13 +3,9 @@
 ### Installation
 
 1. Put the content of WANNA WEB SDK into `./libs` directory.
-2. Add your license key in `index.js` file:
+2. Add your license key and model ids in `index.js` file:
 ```js
 const license = '';
-```
-
-**optional**: you can specify your models list in `index.js` file:
-```js
 const watches = {
   45: 'wanna_watch_45',
   50: 'wanna_watch_50',
@@ -18,6 +14,7 @@ const watches = {
   65: 'wanna_watch_65',
 };
 ```
+
 3. Start local web server in the root of this folder:
 * PHP:<br />
   `php -S 0.0.0.0:8000`
