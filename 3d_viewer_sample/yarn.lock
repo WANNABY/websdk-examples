@@ -924,15 +924,15 @@
   dependencies:
     "@types/node" "*"
 
-"@wannaby/wanna-sdk@3.1.0-alpha.8":
-  version "3.1.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.1.0-alpha.8.tgz#8e8e39da5e829d9d8783d65653f21b6e86aacfae"
-  integrity sha512-hruir8S6qauhZl9q82JDyYi+4PNlIptvz1OC1j+yqAcSZo7l2eW4zivblz6lbrIkjVIVGUKfPWh13T/RChKwTw==
+"@wannaby/wanna-sdk@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.1.0.tgz#87bcd60bed621c61a6fc18186b0ecd035b181165"
+  integrity sha512-PctM1U1GVeb3EhnwJE+lRTE1eybMEisQctROmp91CWENKHJ5fuLc9v1oCL4/T8gK5Kqh+m0cMKRohUT+R+4Mew==
 
-"@wannaby/wanna-ui@3.1.0-alpha.8":
-  version "3.1.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-ui/-/wanna-ui-3.1.0-alpha.8.tgz#02999f19fce5b01e3d7c27b3a287676adbafeff4"
-  integrity sha512-6eLaUZWKfhJqKhJlpIQy0H7S7UM1XWKsC6Qtahtk6xHyp3QgeCMCQxErRSgu8ES4njpNhIWtJ9teSggkxBiQRQ==
+"@wannaby/wanna-ui@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-ui/-/wanna-ui-3.1.0.tgz#10996ec230c2ed0e26f16c8aac08177208884622"
+  integrity sha512-2j29LtvdgKCDUzQpbNDygvt7lyEJavPhTv/hfPh4DPXUM1A/pkBGED3jujE3L2CiFm1Z0U7GuDhM4Nazhs5E2g==
   dependencies:
     classnames "2.2.6"
     dompurify "2.3.6"

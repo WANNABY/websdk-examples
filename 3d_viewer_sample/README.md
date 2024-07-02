@@ -1,4 +1,4 @@
-## WANNA WEB SDK example with React.js
+## WANNA WEB SDK 3.1.0 example with React.js
 
 ### Prerequisites
 
