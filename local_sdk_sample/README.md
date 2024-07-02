@@ -1,4 +1,4 @@
-## WANNA WEB SDK example with local SDK files
+## WANNA WEB SDK 3.1.0 example with local SDK files
 
 ### Installation
 
