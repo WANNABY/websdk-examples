@@ -1,6 +1,6 @@
-# WANNA WEB SDK Examples
+# WANNA WEB SDK Examples 3.0.0
 
-This repository contains examples of how to use the WANNA WEB SDK.
+This repository contains examples of how to use the WANNA WEB SDK 3.0.0.
 
 See detailed information on our [documentation portal](https://docs.wanna.fashion/web/intro)
 
