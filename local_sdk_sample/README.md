@@ -1,4 +1,4 @@
-## WANNA WEB SDK 3.1.0 example with local SDK files
+## WANNA WEB SDK 3.2.0 example with local SDK files
 
 ### Installation
 
@@ -23,5 +23,5 @@ http://localhost:8000/index.html?type=sneakers
 ```
 or
 ```
-http://localhost:8000/index.html?type=watches
+http://localhost:8000/index.html?type=watch
 ```

@@ -1,4 +1,4 @@
-## WANNA WEB SDK 3.1.0 example with npm
+## WANNA WEB SDK 3.2.0 example with npm
 
 ### Prerequisites
 
@@ -21,5 +21,5 @@ http://localhost:8000/index.html?type=sneakers
 ```
 or
 ```
-http://localhost:8000/index.html?type=watches
+http://localhost:8000/index.html?type=watch
 ```
