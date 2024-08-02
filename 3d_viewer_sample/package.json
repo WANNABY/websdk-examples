@@ -12,8 +12,8 @@
     "url": "https://github.com/WANNABY/websdk-examples.git"
   },
   "dependencies": {
-    "@wannaby/wanna-sdk": "3.2.0-alpha.0",
-    "@wannaby/wanna-ui": "3.2.0-alpha.0",
+    "@wannaby/wanna-sdk": "3.2.0",
+    "@wannaby/wanna-ui": "3.2.0",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
