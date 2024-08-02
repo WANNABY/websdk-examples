@@ -924,10 +924,10 @@
   dependencies:
     "@types/node" "*"
 
-"@wannaby/wanna-sdk@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.1.0.tgz#87bcd60bed621c61a6fc18186b0ecd035b181165"
-  integrity sha512-PctM1U1GVeb3EhnwJE+lRTE1eybMEisQctROmp91CWENKHJ5fuLc9v1oCL4/T8gK5Kqh+m0cMKRohUT+R+4Mew==
+"@wannaby/wanna-sdk@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.2.0.tgz#2193affac7333c97ee456acc778871534e68719e"
+  integrity sha512-3XIlrhHdmurh34Bxrc3sznEee50Xl4tSSyr+COIb1wRQh37QSlNnjslh/T8S3+wC95qIG91+6blCh8x2D0QoFA==
 
 "@webassemblyjs/ast@1.12.1", "@webassemblyjs/ast@^1.11.5":
   version "1.12.1"

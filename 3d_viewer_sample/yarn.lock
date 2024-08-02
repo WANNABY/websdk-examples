@@ -671,6 +671,18 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
+"@dhmk/utils@^4.3.3":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@dhmk/utils/-/utils-4.4.1.tgz#f2856494051d42ef383facbfb82c56df4e205578"
+  integrity sha512-5l9xBJvaIQqbLv6vOhhArL6A/UXdATqFUdrQ7MkD3kMwGoEv1cxrSsNUIzRRjW5G1c7Kng6gu0KZf5D6tFbP9g==
+
+"@dhmk/zustand-lens@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@dhmk/zustand-lens/-/zustand-lens-4.0.0.tgz#88729a7ede8799b351a5a1f3b5248110c48e863b"
+  integrity sha512-xx9Dz/zcsA92cJxBmv8voTJ8hc5/+KNB6y2cWoY7YLv0QsAZGaWghiQhGAYeWmZMKvFtpc7CwSeN8cLLaMdOCw==
+  dependencies:
+    "@dhmk/utils" "^4.3.3"
+
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
@@ -924,16 +936,17 @@
   dependencies:
     "@types/node" "*"
 
-"@wannaby/wanna-sdk@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.1.0.tgz#87bcd60bed621c61a6fc18186b0ecd035b181165"
-  integrity sha512-PctM1U1GVeb3EhnwJE+lRTE1eybMEisQctROmp91CWENKHJ5fuLc9v1oCL4/T8gK5Kqh+m0cMKRohUT+R+4Mew==
+"@wannaby/wanna-sdk@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.2.0.tgz#2193affac7333c97ee456acc778871534e68719e"
+  integrity sha512-3XIlrhHdmurh34Bxrc3sznEee50Xl4tSSyr+COIb1wRQh37QSlNnjslh/T8S3+wC95qIG91+6blCh8x2D0QoFA==
 
-"@wannaby/wanna-ui@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-ui/-/wanna-ui-3.1.0.tgz#10996ec230c2ed0e26f16c8aac08177208884622"
-  integrity sha512-2j29LtvdgKCDUzQpbNDygvt7lyEJavPhTv/hfPh4DPXUM1A/pkBGED3jujE3L2CiFm1Z0U7GuDhM4Nazhs5E2g==
+"@wannaby/wanna-ui@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-ui/-/wanna-ui-3.2.0.tgz#77340e08ff7283520b067482b99de3dd33ab75bc"
+  integrity sha512-A93xgzuonlI24+OKTbQFGcgd9z5hbH9nT185ZVvjNyIgVMglAIESXBnj17ZZbdkSdfUVrMgI4kyqYhvhH9nGAA==
   dependencies:
+    "@dhmk/zustand-lens" "4.0.0"
     classnames "2.2.6"
     dompurify "2.3.6"
     file-saver "2.0.5"
