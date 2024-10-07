@@ -28,8 +28,6 @@ const App = () =>  {
         license={license}
         mode={wanna.MODE_TYPE_3D}
         modelsType={wanna.MODEL_TYPE_BAG}
-        viewMode={VIEW_MODE_MOBILE}
-        theme={wanna.THEME_LIGHT}
         onError={(error) => console.log(error)}
       />
     </div>
