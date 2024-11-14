@@ -32,7 +32,7 @@ const App = () => {
 
         console.log('Successfully initialized WANNA SDK');
       } catch (error) {
-        console.log('Error initializing WANNA SDK', error);
+        console.error('Error initializing WANNA SDK', error);
       }
     }
 

@@ -28,7 +28,7 @@ const App = () =>  {
         license={license}
         mode={wanna.MODE_TYPE_3D}
         modelsType={wanna.MODEL_TYPE_BAG}
-        onError={(error) => console.log(error)}
+        onError={(error) => console.error(error)}
       />
     </div>
   );
