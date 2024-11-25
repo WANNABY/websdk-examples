@@ -117,7 +117,10 @@ async function showWristMeasurement() {
     },
     onSaveClick: onWristMeasureSave,
     onCloseClick: onWristMeasureClose,
-    onError: skipWristMeasurement,
+    onError: (error) => {
+      console.error(error)
+      skipWristMeasurement()
+    },
   });
 }
 

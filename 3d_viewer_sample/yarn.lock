@@ -936,19 +936,19 @@
   dependencies:
     "@types/node" "*"
 
-"@wannaby/wanna-sdk@3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.3.0.tgz#ab574120ac86a9c4c1c0bb45d2a42cd366792ff3"
-  integrity sha512-QL5F5uYqyF21AjG/tWj+CuaKwI90vsN8aVBskPdbVQV0XDJvUCH6lprHVnW4SE5+VDjt1wKQXo+TU0qdQ0tZEA==
+"@wannaby/wanna-sdk@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.4.1.tgz#bdc810d1dd6a694f2f6a8d9675b2642c98ed45c9"
+  integrity sha512-FphsMrqcpp5PmASTgymis0JdY+ii60tCEUk9muNrNxwCPFj+q7aSIvUAVllXLRokhTq0OJ3za3TItJGOS+V2Ww==
 
-"@wannaby/wanna-ui@3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-ui/-/wanna-ui-3.3.0.tgz#30b164db1a39269c7e56c2a0b4507fe834409a20"
-  integrity sha512-u3yF+BLDmaplHbukdFy1ONQUHcQIHkPvelRc5c3etNzR48ch/+7fb38rk3vTvwZboYVOD0M9+rxrg+xg4uhl8A==
+"@wannaby/wanna-ui@3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-ui/-/wanna-ui-3.4.0.tgz#59817372fca3bc024f676e99c9f75122b893ceab"
+  integrity sha512-gzU+JVSWXstN2A8ToL5FsqzNXD71fjVr3Cd38qsgD1Bme2wDwbihmwkkvTLpisVfq/A618J4z8h6/ifl8fyy5g==
   dependencies:
     "@dhmk/zustand-lens" "4.0.0"
     classnames "2.2.6"
-    dompurify "2.3.6"
+    dompurify "2.5.4"
     file-saver "2.0.5"
     immer "10.0.4"
     prop-types "15.7.2"
@@ -1689,10 +1689,10 @@ domhandler@^4.0.0, domhandler@^4.2.0, domhandler@^4.3.1:
   dependencies:
     domelementtype "^2.2.0"
 
-dompurify@2.3.6:
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.6.tgz#2e019d7d7617aacac07cbbe3d88ae3ad354cf875"
-  integrity sha512-OFP2u/3T1R5CEgWCEONuJ1a5+MFKnOYpkywpUSxv/dj1LeBT1erK+JwM7zK0ROy2BRhqVCf0LRw/kHqKuMkVGg==
+dompurify@2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.5.4.tgz#347e91070963b22db31c7c8d0ce9a0a2c3c08746"
+  integrity sha512-l5NNozANzaLPPe0XaAwvg3uZcHtDBnziX/HjsY1UcDj1MxTK8Dd0Kv096jyPK5HRzs/XM5IMj20dW8Fk+HnbUA==
 
 domutils@^2.5.2, domutils@^2.8.0:
   version "2.8.0"
