@@ -15,6 +15,13 @@ const App = () => {
 
     const startWanna = async () => {
       try {
+        const isSupportedEnvironment = await wanna.checkEnvironment();
+
+        if (!isSupportedEnvironment) {
+          setStatus('Unsupported environment');
+          return
+        }
+
         await Promise.all([
           wanna.initVideo(),
           wanna.init({
