@@ -1,4 +1,4 @@
-## WANNA WEB SDK 3.4.0 example with npm
+## WANNA WEB SDK 3.5.0 example with npm
 
 ### Prerequisites
 
