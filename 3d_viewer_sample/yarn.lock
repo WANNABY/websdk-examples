@@ -936,15 +936,15 @@
   dependencies:
     "@types/node" "*"
 
-"@wannaby/wanna-sdk@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.4.1.tgz#bdc810d1dd6a694f2f6a8d9675b2642c98ed45c9"
-  integrity sha512-FphsMrqcpp5PmASTgymis0JdY+ii60tCEUk9muNrNxwCPFj+q7aSIvUAVllXLRokhTq0OJ3za3TItJGOS+V2Ww==
+"@wannaby/wanna-sdk@3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-sdk/-/wanna-sdk-3.5.0.tgz#e75131783c07c45f93c3da0a4470efc87cea4af5"
+  integrity sha512-JpgTO1gb292fEhyBHX1WzBXYIbX+7VOR83T2IyrlWmQ0qJztIyGSJsRs36ic3j+c9okTiY4oEEuNjp7iPGh1dQ==
 
-"@wannaby/wanna-ui@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@wannaby/wanna-ui/-/wanna-ui-3.4.0.tgz#59817372fca3bc024f676e99c9f75122b893ceab"
-  integrity sha512-gzU+JVSWXstN2A8ToL5FsqzNXD71fjVr3Cd38qsgD1Bme2wDwbihmwkkvTLpisVfq/A618J4z8h6/ifl8fyy5g==
+"@wannaby/wanna-ui@3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@wannaby/wanna-ui/-/wanna-ui-3.5.0.tgz#2bad9496ca18d27f6c2d0009183d84a19bdcb1f0"
+  integrity sha512-6/Q8+h6A54LnnZEBISU+tLfBXepN9zCwWT7iQYnkLW4NQLXLpwsk9rQCnXFGQ2+qUlLH0ynYYzoqKY8BbyvD3w==
   dependencies:
     "@dhmk/zustand-lens" "4.0.0"
     classnames "2.2.6"

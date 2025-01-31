@@ -1,4 +1,4 @@
-## WANNA WEB SDK 3.4.0 example with wrist measurement
+## WANNA WEB SDK 3.5.0 example with wrist measurement
 
 ### Installation
 
