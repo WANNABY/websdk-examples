@@ -22,6 +22,15 @@ const App = () => {
           return
         }
 
+        const consentGranted = window.confirm('[DEMO] By using this application, you consent to the collection and processing of your data as outlined in our Privacy Policy.');
+
+        if (consentGranted) {
+          wanna.registerUserConsent();
+        } else {
+          alert('Cannot proceed without a consent!');
+          return;
+        }
+
         await Promise.all([
           wanna.initVideo(),
           wanna.init({

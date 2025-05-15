@@ -133,6 +133,15 @@ window.addEventListener('load', () => {
       });
   };
 
+  const consentGranted = window.confirm('[DEMO] By using this application, you consent to the collection and processing of your data as outlined in our Privacy Policy.');
+
+  if (consentGranted) {
+    wanna.registerUserConsent();
+  } else {
+    alert('Cannot proceed without a consent!');
+    return;
+  }
+
   preInitAndPreload();
 
   const handleInit = async () => {
