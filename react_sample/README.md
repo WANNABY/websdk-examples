@@ -1,8 +1,8 @@
-## WANNA WEB SDK 4.0.0 example with React.js
+## WANNA WEB SDK 4.1.0 example with React.js
 
 ### Prerequisites
 
-- Node.js@18
+- Node.js@18 or higher
 - yarn
 
 ### Installation
