@@ -1,9 +1,10 @@
-# WANNA WEB SDK Examples 4.1.0
+# WANNA WEB SDK Examples 4.2.0
 
-This repository contains examples of how to use the WANNA WEB SDK 4.1.0.
+This repository contains examples of how to use the WANNA WEB SDK 4.2.0.
 
 Examples for previous versions:
 
+- [4.1.0](https://github.com/WANNABY/websdk-examples/tree/4.1.0)
 - [4.0.0](https://github.com/WANNABY/websdk-examples/tree/4.0.0)
 - [3.5.0](https://github.com/WANNABY/websdk-examples/tree/3.5.0)
 - [3.4.0](https://github.com/WANNABY/websdk-examples/tree/3.4.0)
