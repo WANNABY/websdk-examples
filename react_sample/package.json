@@ -12,7 +12,7 @@
     "url": "https://github.com/WANNABY/websdk-examples.git"
   },
   "dependencies": {
-    "@wannaby/wanna-sdk": "4.1.0-alpha.0",
+    "@wannaby/wanna-sdk": "4.2.0",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
